@@ -3,7 +3,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	list-style: none;
+	/* list-style: none; */
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 }
@@ -16,7 +16,7 @@ body{
 
 .resume_wrapper{
 	display: flex;
-	width: 800px;
+	width: 900px;
 	margin: 50px auto;
 	background: #fff;
 	padding: 10px;
@@ -228,4 +228,9 @@ body{
 	.resume_wrapper .resume_right .resmue_interests .interests .int_icon{
 		font-size: 24px;
 	}
+}
+
+.bullet {
+	list-style: disc;
+	margin-left: 12px;
 }
