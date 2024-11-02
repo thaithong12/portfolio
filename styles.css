@@ -175,7 +175,7 @@ body{
 
 .resume_wrapper .resume_right .resmue_interests .resume_info{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	text-align: center;
 }
 
@@ -233,4 +233,8 @@ body{
 .bullet {
 	list-style: disc;
 	margin-left: 12px;
+}
+
+.interests {
+	max-width: 150px;
 }
